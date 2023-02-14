@@ -2,8 +2,18 @@
 
      private Punto[] vertices = new Punto[4];
 
+     Cuadrilatero() {
+
+     }
+
+     Cuadrilatero(double p1, double p2, double p3, double p4) {
+
+     }
+
      public Punto[] getVertices() {
+
          return this.vertices;
+
      }
 
      public void setPuntos(Punto[] vertices) {
