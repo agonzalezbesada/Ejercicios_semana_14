@@ -1,6 +1,6 @@
 public class Punto {
 
-    private int pos_x;
+    public int pos_x;
 
-    private int pos_y;
+    public int pos_y;
 }
