@@ -6,11 +6,6 @@ public class Cuadrado extends Cuadrilatero implements Forma{
 
     }
 
-    Cuadrado(Punto p1, Punto p2, Punto p3, Punto p4) {
-        super();
-        this.lado=lado;
-    }
-
     public void dibujar_puntos() {
 
     }
