@@ -10,10 +10,10 @@ public class Main {
         switch (eleccion) {
 
             case 1:
-                Punto p1 = new Punto(3, 3);
-                Punto p2 = new Punto(3, 3);
-                Punto p3 = new Punto(3, 3);
-                Punto p4 = new Punto(3, 3);
+                Punto p1 = new Punto();
+                Punto p2 = new Punto();
+                Punto p3 = new Punto();
+                Punto p4 = new Punto();
                 Cuadrado cuadrado1 = new Cuadrado();
                 break;
 
