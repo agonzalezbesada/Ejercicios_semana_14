@@ -7,11 +7,11 @@ public class Cuadrado extends Cuadrilatero implements Forma{
     }
 
     public void dibujar_puntos() {
-
+        System.out.println("Dibuja puntos cuadrado");
     }
 
     public void rellenar_forma() {
-
+        System.out.println("Rellena forma cuadrado");
     }
 
     public double calcular_area() {
@@ -21,8 +21,8 @@ public class Cuadrado extends Cuadrilatero implements Forma{
     }
 
     public double calcular_perimetro() {
-        double perimetro = 0d;
-
+        double perimetro = (lado * 4);
+        System.out.println(perimetro);
         return perimetro;
     }
 
